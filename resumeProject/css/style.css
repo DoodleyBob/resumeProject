@@ -16,13 +16,13 @@ body {
     background-color: black;
     justify-content: center;
     align-items: center;
+    border-bottom: 10px grey solid;
 }
 
 .title{
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 40px;
-    
     margin-top: 2.5%;
     margin-right: 50px;
 }
@@ -32,12 +32,21 @@ img {
     width: 175px;
     border: 2px dashed rgb(230, 226, 226);
     border-radius: 50%;
-    
 }
 
 #contact {
     font-size: 18px;
+    font-style: italic;
     color: white;
     margin-left: 50px;
+    list-style-type: none;
+}
+
+#contact li {
+    border: 1px dashed white;
+}
+#contact h2 {
+    color: white;
+    border: 2px solid;
 }
 
