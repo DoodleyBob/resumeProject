@@ -27,7 +27,7 @@ body {
     margin-right: 50px;
 }
 
-img {
+.me{
     height: 175px;
     width: 175px;
     border: 2px dashed rgb(230, 226, 226);
