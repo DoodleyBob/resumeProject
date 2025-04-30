@@ -7,15 +7,15 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 .header {
     display: flex;
-    padding: 1rem;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    background-color: #000000;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
     border-bottom: 10px grey solid;
 }
 
@@ -23,12 +23,11 @@ body {
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 40px;
-    margin-right: 50px;
+    margin-top: 5%;
+    width: 33%;
 }
 
 .me {
-    height: 175px;
-    width: 175px;
     border: 2px dashed rgb(230, 226, 226);
     border-radius: 50%;
 }
@@ -37,7 +36,8 @@ body {
     font-size: 18px;
     font-style: italic;
     color: white;
-    margin-left: 50px;
+    list-style-type: none;
+    width: 33%;
 }
 
 #contact li {
@@ -48,8 +48,103 @@ body {
     border: 2px solid;
 }
 
-.content div{
-    height: 500px;
-    width: 500px;
+.content {
+    width: 100%;
     text-align: center;
 }
+
+div .content{
+    height: 500px;
+    width: 500px;
+}
+
+div {
+    text-align: center;
+    align-content: center;
+    border-bottom: 2px solid darkslategray;
+}
+
+#ecs1 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc1 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
+#ecs2 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc2 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
+#ecs3 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc3 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
+#ecs4 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc4 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
+#ecs5 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc5 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
+#ecs6 {
+    font-size:25px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    padding: 5px;
+}
+
+#ec-desc6 {
+    font-size:20px;
+    border-bottom:1px solid black;
+    font-style:italic;
+    position: relative;
+}
+
